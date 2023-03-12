@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    h1{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    h2{
+        font-size: medium;
+    }
+ }

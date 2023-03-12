@@ -2,10 +2,37 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<div class="app-wrapper">
-  <div class="top-section">
+<div class="app-wrapper d-flex">
+  <div class="right-section"></div>
+  <div class="content-section d-flex m-auto">
+    <div class="login-card d-flex flex-row">
+
+
+      
+      <div class="login-card-left d-flex">
+        <form class="m-auto">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+
+
+
+
+      <div class="login-card-right d-flex flex-column">
+        <div class="p-4">
+        <h1 class="py-4">Bonjour</h1>
+        <h2>Place holder</h2>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="content-section"></div>
-  <div class="bottom-section"></div>
 </div>
 <router-outlet></router-outlet>
